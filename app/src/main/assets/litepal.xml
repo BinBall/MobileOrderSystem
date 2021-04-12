@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--    dbname:相应的数据库名称-->
+    <dbname value="file"/>
+    <!--    version:相应的数据库的版本,注意内容发生改变时,要升级到对应版本-->
+    <version value="1"/>
+    <!--    list：指定映射模型，即需要数据库管理的对象,路径为全类名-->
+    <list>
+        <!--    list标签中的实体类都应继承DataSupport类-->
+        <mapping class="com.example.mobileordersystem.User"/>
+    </list>
+</litepal>
